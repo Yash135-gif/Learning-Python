@@ -5,8 +5,8 @@
 # n=int(input("enter the vlaue1"))
 # m=int(input("enter the vlaue2"))
 # print(add(n,m))
-# a=50
-# b=50
-# res=add(a,b)
-# print(res)
+a=50
+b=50
+res=add(a,b)
+print(res)
 
