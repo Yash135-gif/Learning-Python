@@ -422,18 +422,18 @@
 #     def teach(self):
 #         print('Teaching..')
 
-# class Student:
-#     def study(self):
-#         print('Studing..')
+class Student:
+    def study(self):
+        print('Studing..')
 
-# class TeachingAssistant(Teacher,Student):
-#     def assist(self):
-#         print('Assisting Teacher and helping students.')
+class TeachingAssistant(Teacher,Student):
+    def assist(self):
+        print('Assisting Teacher and helping students.')
 
-# ta=TeachingAssistant()
-# ta.teach()
-# ta.study()
-# ta.assist()
+ta=TeachingAssistant()
+ta.teach()
+ta.study()
+ta.assist()
 
 
 
