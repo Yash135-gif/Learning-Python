@@ -305,11 +305,11 @@
 
 # find longest word in a sentence
 
-s='python programming is very interesting'
-a=s.split(' ')
-l=''
-for i in a:
-    if len(i)>len(l):
-        l=i
-print(l)
+# s='python programming is very interesting'
+# a=s.split(' ')
+# l=''
+# for i in a:
+#     if len(i)>len(l):
+#         l=i
+# print(l)
 
